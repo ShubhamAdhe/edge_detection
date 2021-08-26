@@ -293,7 +293,7 @@ def vid_pipeline(img):
     return img
 
 # Give file path of input video
-myclip = VideoFileClip('out1.mp4')
+myclip = VideoFileClip('input_video.mp4')
 
 output_vid = 'output.mp4'
 clip = myclip.fl_image(vid_pipeline)
